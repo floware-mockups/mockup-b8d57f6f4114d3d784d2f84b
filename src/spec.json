@@ -1,0 +1,437 @@
+{
+  "title": "Gestione prenotazioni sale",
+  "description": "Prototipo per consultare il calendario settimanale delle sale e gestire le prenotazioni con dati interamente inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Calendario settimanale",
+      "description": "Panoramica delle prenotazioni per giorno, sala e fascia oraria. Usa la ricerca e i filtri per trovare gli appuntamenti.",
+      "metrics": [
+        {
+          "label": "Prenotazioni della settimana",
+          "value": "24"
+        },
+        {
+          "label": "Sale disponibili",
+          "value": "3"
+        },
+        {
+          "label": "Ore prenotate",
+          "value": "41"
+        },
+        {
+          "label": "In attesa di conferma",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Data",
+        "Fascia oraria",
+        "Sala",
+        "Richiedente",
+        "Organizzazione",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "12 maggio",
+          "09:00–10:00",
+          "Lumo",
+          "Nubi",
+          "Civica Aurora",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "12 maggio",
+          "10:30–12:00",
+          "Vela",
+          "Rivo",
+          "Officina Selva",
+          "9",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "12 maggio",
+          "14:00–15:00",
+          "Nubi",
+          "Timo",
+          "Rete Brinata",
+          "4",
+          "In attesa"
+        ],
+        [
+          "Martedì",
+          "13 maggio",
+          "09:30–11:00",
+          "Lumo",
+          "Miro",
+          "Studio Lanterna",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "13 maggio",
+          "11:30–12:30",
+          "Vela",
+          "Leda",
+          "Civica Aurora",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "13 maggio",
+          "15:00–16:00",
+          "Nubi",
+          "Orio",
+          "Gruppo Velluto",
+          "7",
+          "Annullata"
+        ],
+        [
+          "Mercoledì",
+          "14 maggio",
+          "08:30–09:30",
+          "Lumo",
+          "Nera",
+          "Officina Selva",
+          "3",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "14 maggio",
+          "10:00–12:00",
+          "Vela",
+          "Eolo",
+          "Rete Brinata",
+          "12",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "14 maggio",
+          "13:30–14:30",
+          "Nubi",
+          "Suri",
+          "Studio Lanterna",
+          "6",
+          "In attesa"
+        ],
+        [
+          "Giovedì",
+          "15 maggio",
+          "09:00–10:30",
+          "Lumo",
+          "Auri",
+          "Gruppo Velluto",
+          "10",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "15 maggio",
+          "11:00–12:00",
+          "Vela",
+          "Dori",
+          "Civica Aurora",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "15 maggio",
+          "14:30–16:00",
+          "Nubi",
+          "Iria",
+          "Officina Selva",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "16 maggio",
+          "09:30–10:30",
+          "Lumo",
+          "Vero",
+          "Rete Brinata",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "16 maggio",
+          "11:00–12:30",
+          "Vela",
+          "Zeno",
+          "Studio Lanterna",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "16 maggio",
+          "14:00–15:00",
+          "Nubi",
+          "Luni",
+          "Gruppo Velluto",
+          "6",
+          "Confermata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "prenotazioni",
+      "title": "Elenco prenotazioni",
+      "description": "Consulta le prenotazioni e individua quelle da confermare, modificare o annullare. La ricerca e i filtri sono separati dal modulo di inserimento.",
+      "metrics": [
+        {
+          "label": "Prenotazioni attive",
+          "value": "22"
+        },
+        {
+          "label": "Da confermare",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Data",
+        "Fascia oraria",
+        "Sala",
+        "Richiedente",
+        "Organizzazione",
+        "Partecipanti",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "12 maggio",
+          "09:00–10:00",
+          "Lumo",
+          "Nubi",
+          "Civica Aurora",
+          "6",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "12 maggio",
+          "10:30–12:00",
+          "Vela",
+          "Rivo",
+          "Officina Selva",
+          "9",
+          "Confermata"
+        ],
+        [
+          "Lunedì",
+          "12 maggio",
+          "14:00–15:00",
+          "Nubi",
+          "Timo",
+          "Rete Brinata",
+          "4",
+          "In attesa"
+        ],
+        [
+          "Martedì",
+          "13 maggio",
+          "09:30–11:00",
+          "Lumo",
+          "Miro",
+          "Studio Lanterna",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "13 maggio",
+          "11:30–12:30",
+          "Vela",
+          "Leda",
+          "Civica Aurora",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Martedì",
+          "13 maggio",
+          "15:00–16:00",
+          "Nubi",
+          "Orio",
+          "Gruppo Velluto",
+          "7",
+          "Annullata"
+        ],
+        [
+          "Mercoledì",
+          "14 maggio",
+          "08:30–09:30",
+          "Lumo",
+          "Nera",
+          "Officina Selva",
+          "3",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "14 maggio",
+          "10:00–12:00",
+          "Vela",
+          "Eolo",
+          "Rete Brinata",
+          "12",
+          "Confermata"
+        ],
+        [
+          "Mercoledì",
+          "14 maggio",
+          "13:30–14:30",
+          "Nubi",
+          "Suri",
+          "Studio Lanterna",
+          "6",
+          "In attesa"
+        ],
+        [
+          "Giovedì",
+          "15 maggio",
+          "09:00–10:30",
+          "Lumo",
+          "Auri",
+          "Gruppo Velluto",
+          "10",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "15 maggio",
+          "11:00–12:00",
+          "Vela",
+          "Dori",
+          "Civica Aurora",
+          "4",
+          "Confermata"
+        ],
+        [
+          "Giovedì",
+          "15 maggio",
+          "14:30–16:00",
+          "Nubi",
+          "Iria",
+          "Officina Selva",
+          "8",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "16 maggio",
+          "09:30–10:30",
+          "Lumo",
+          "Vero",
+          "Rete Brinata",
+          "5",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "16 maggio",
+          "11:00–12:30",
+          "Vela",
+          "Zeno",
+          "Studio Lanterna",
+          "7",
+          "Confermata"
+        ],
+        [
+          "Venerdì",
+          "16 maggio",
+          "14:00–15:00",
+          "Nubi",
+          "Luni",
+          "Gruppo Velluto",
+          "6",
+          "Confermata"
+        ]
+      ],
+      "form": [
+        "Giorno",
+        "Data",
+        "Fascia oraria",
+        "Sala",
+        "Richiedente",
+        "Organizzazione",
+        "Partecipanti",
+        "Stato"
+      ]
+    },
+    {
+      "id": "sale",
+      "title": "Sale e disponibilità",
+      "description": "Verifica capienza e dotazioni delle sale per scegliere uno spazio adatto alla prenotazione.",
+      "metrics": [
+        {
+          "label": "Sale gestite",
+          "value": "3"
+        },
+        {
+          "label": "Posti complessivi",
+          "value": "36"
+        }
+      ],
+      "columns": [
+        "Sala",
+        "Capienza",
+        "Dotazioni",
+        "Piano",
+        "Disponibilità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "12",
+          "Schermo, lavagna",
+          "1",
+          "Lun–Ven, 08:00–17:00",
+          "Disponibile"
+        ],
+        [
+          "Vela",
+          "16",
+          "Schermo, videoproiezione",
+          "2",
+          "Lun–Ven, 08:00–17:00",
+          "Disponibile"
+        ],
+        [
+          "Nubi",
+          "8",
+          "Lavagna, tavolo modulare",
+          "1",
+          "Lun–Ven, 08:00–17:00",
+          "Disponibile"
+        ]
+      ],
+      "form": [
+        "Sala",
+        "Capienza",
+        "Dotazioni",
+        "Piano",
+        "Disponibilità",
+        "Stato"
+      ]
+    }
+  ]
+}
